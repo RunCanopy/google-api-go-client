@@ -13,6 +13,8 @@ import (
 	"strings"
 	"time"
 
+	"io"
+
 	"github.com/google/uuid"
 	"github.com/googleapis/gax-go/v2"
 	"github.com/googleapis/gax-go/v2/callctx"
@@ -202,5 +204,16 @@ func DecodeResponse(target interface{}, res *http.Response) error {
 	if res.StatusCode == http.StatusNoContent {
 		return nil
 	}
-	return json.NewDecoder(res.Body).Decode(target)
+	bytes, err := io.ReadAll(res.Body)
+	if err != nil {
+		return err
+	}
+
+	err = json.Unmarshal(bytes, target)
+
+	if err != nil {
+		return err
+	}
+
+	return nil
 }
