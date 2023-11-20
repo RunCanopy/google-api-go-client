@@ -16,7 +16,7 @@ import (
 	"strings"
 	"time"
 
-	"google.golang.org/api/internal/third_party/uritemplates"
+	"github.com/RunCanopy/google-api-go-client/internalthird_party/uritemplates"
 )
 
 // ContentTyper is an interface for Readers which know (or would like

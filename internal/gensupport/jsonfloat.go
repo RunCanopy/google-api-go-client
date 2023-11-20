@@ -38,10 +38,10 @@ func (f *JSONFloat64) UnmarshalJSON(data []byte) error {
 		case "-Infinity":
 			ff = math.Inf(-1)
 		default:
-			return fmt.Errorf("google.golang.org/api/internal: bad float string %q", s)
+			return fmt.Errorf("github.com/RunCanopy/google-api-go-client/internal: bad float string %q", s)
 		}
 		*f = JSONFloat64(ff)
 		return nil
 	}
-	return errors.New("google.golang.org/api/internal: data not float or string")
+	return errors.New("github.com/RunCanopy/google-api-go-client/internal: data not float or string")
 }

@@ -16,8 +16,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/RunCanopy/google-api-go-client/internal"
 	"google.golang.org/api/google-api-go-generator/internal/disco"
-	"google.golang.org/api/internal"
 )
 
 var updateGolden = flag.Bool("update_golden", false, "If true, causes TestAPIs to update golden files")

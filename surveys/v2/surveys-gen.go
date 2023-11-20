@@ -52,7 +52,7 @@ import (
 	"strings"
 
 	googleapi "google.golang.org/api/googleapi"
-	gensupport "google.golang.org/api/internal/gensupport"
+	gensupport "github.com/RunCanopy/google-api-go-client/internal/gensupport"
 	option "google.golang.org/api/option"
 	htransport "google.golang.org/api/transport/http"
 )

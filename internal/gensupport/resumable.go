@@ -14,8 +14,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/RunCanopy/google-api-go-client/internal"
 	"github.com/google/uuid"
-	"google.golang.org/api/internal"
 )
 
 // ResumableUpload is used by the generated APIs to provide resumable uploads.

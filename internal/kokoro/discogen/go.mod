@@ -1,4 +1,4 @@
-module google.golang.org/api/internal/kokoro/discogen
+module github.com/RunCanopy/google-api-go-client/internal/kokoro/discogen
 
 go 1.19
 

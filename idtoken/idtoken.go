@@ -16,8 +16,8 @@ import (
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
 
+	"github.com/RunCanopy/google-api-go-client/internal"
 	"google.golang.org/api/impersonate"
-	"google.golang.org/api/internal"
 	"google.golang.org/api/option"
 	"google.golang.org/api/option/internaloption"
 	htransport "google.golang.org/api/transport/http"

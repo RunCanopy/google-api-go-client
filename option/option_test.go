@@ -10,10 +10,10 @@ import (
 	"crypto/tls"
 	"math/big"
 
+	"github.com/RunCanopy/google-api-go-client/internal"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"golang.org/x/oauth2/google"
-	"google.golang.org/api/internal"
 	"google.golang.org/grpc"
 )
 

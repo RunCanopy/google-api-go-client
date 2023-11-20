@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"google.golang.org/api/internal"
+	"github.com/RunCanopy/google-api-go-client/internal"
 	"google.golang.org/grpc"
 )
 

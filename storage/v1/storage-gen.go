@@ -71,8 +71,8 @@ import (
 
 	"github.com/googleapis/gax-go/v2"
 	googleapi "google.golang.org/api/googleapi"
-	internal "google.golang.org/api/internal"
-	gensupport "google.golang.org/api/internal/gensupport"
+	internal "github.com/RunCanopy/google-api-go-client/internal"
+	gensupport "github.com/RunCanopy/google-api-go-client/internal/gensupport"
 	option "google.golang.org/api/option"
 	internaloption "google.golang.org/api/option/internaloption"
 	htransport "google.golang.org/api/transport/http"

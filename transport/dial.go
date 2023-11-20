@@ -11,7 +11,7 @@ import (
 	"golang.org/x/oauth2/google"
 	"google.golang.org/grpc"
 
-	"google.golang.org/api/internal"
+	"github.com/RunCanopy/google-api-go-client/internal"
 	"google.golang.org/api/option"
 	gtransport "google.golang.org/api/transport/grpc"
 	htransport "google.golang.org/api/transport/http"

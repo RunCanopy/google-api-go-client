@@ -17,10 +17,10 @@ import (
 	"time"
 
 	"cloud.google.com/go/compute/metadata"
+	"github.com/RunCanopy/google-api-go-client/internal"
 	"go.opencensus.io/plugin/ocgrpc"
 	"golang.org/x/oauth2"
 	"golang.org/x/time/rate"
-	"google.golang.org/api/internal"
 	"google.golang.org/api/option"
 	"google.golang.org/grpc"
 	grpcgoogle "google.golang.org/grpc/credentials/google"

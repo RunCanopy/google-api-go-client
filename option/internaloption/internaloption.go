@@ -6,8 +6,8 @@
 package internaloption
 
 import (
+	"github.com/RunCanopy/google-api-go-client/internal"
 	"golang.org/x/oauth2/google"
-	"google.golang.org/api/internal"
 	"google.golang.org/api/option"
 )
 

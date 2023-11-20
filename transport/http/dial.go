@@ -15,12 +15,12 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/RunCanopy/google-api-go-client/internal"
+	"github.com/RunCanopy/google-api-go-client/internal/cert"
 	"go.opencensus.io/plugin/ochttp"
 	"golang.org/x/net/http2"
 	"golang.org/x/oauth2"
 	"google.golang.org/api/googleapi/transport"
-	"google.golang.org/api/internal"
-	"google.golang.org/api/internal/cert"
 	"google.golang.org/api/option"
 	"google.golang.org/api/transport/http/internal/propagation"
 )

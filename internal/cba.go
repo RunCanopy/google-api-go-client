@@ -42,7 +42,6 @@ import (
 
 	"github.com/google/s2a-go"
 	"github.com/google/s2a-go/fallback"
-	"google.golang.org/api/internal/cert"
 	"google.golang.org/grpc/credentials"
 )
 

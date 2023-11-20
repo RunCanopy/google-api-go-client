@@ -7,9 +7,9 @@ package internaloption
 import (
 	"testing"
 
+	"github.com/RunCanopy/google-api-go-client/internal"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
-	"google.golang.org/api/internal"
 )
 
 func TestWithCredentials(t *testing.T) {

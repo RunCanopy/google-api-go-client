@@ -12,7 +12,7 @@ import (
 	"cloud.google.com/go/compute/metadata"
 	"golang.org/x/oauth2"
 
-	"google.golang.org/api/internal"
+	"github.com/RunCanopy/google-api-go-client/internal"
 )
 
 // computeTokenSource checks if this code is being run on GCE. If it is, it will

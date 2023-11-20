@@ -15,9 +15,7 @@ import (
 	"os"
 	"time"
 
-	"golang.org/x/oauth2"
-	"google.golang.org/api/internal/impersonate"
-
+	"github.com/RunCanopy/google-api-go-client/internalimpersonate"
 	"golang.org/x/oauth2/google"
 )
 
