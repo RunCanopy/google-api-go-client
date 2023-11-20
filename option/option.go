@@ -9,6 +9,7 @@ import (
 	"crypto/tls"
 	"net/http"
 
+	"github.com/RunCanopy/google-api-go-client/internal"
 	"github.com/RunCanopy/google-api-go-client/internal/impersonate"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
