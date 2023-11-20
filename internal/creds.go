@@ -10,12 +10,13 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"golang.org/x/oauth2"
 	"net"
 	"net/http"
 	"os"
 	"time"
 
-	"github.com/RunCanopy/google-api-go-client/internalimpersonate"
+	"github.com/RunCanopy/google-api-go-client/internal/impersonate"
 	"golang.org/x/oauth2/google"
 )
 

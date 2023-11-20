@@ -8,11 +8,12 @@ package internal
 import (
 	"crypto/tls"
 	"errors"
+	"golang.org/x/oauth2/google"
 	"net/http"
 	"os"
 	"strconv"
 
-	"github.com/RunCanopy/google-api-go-client/internalimpersonate"
+	"github.com/RunCanopy/google-api-go-client/internal/impersonate"
 	"golang.org/x/oauth2"
 	"google.golang.org/grpc"
 )

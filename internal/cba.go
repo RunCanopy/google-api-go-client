@@ -35,6 +35,7 @@ package internal
 import (
 	"context"
 	"crypto/tls"
+	"github.com/RunCanopy/google-api-go-client/internal/cert"
 	"net"
 	"net/url"
 	"os"
