@@ -12,9 +12,9 @@ import (
 	"testing"
 
 	"cloud.google.com/go/compute/metadata"
+	"github.com/RunCanopy/google-api-go-client/internal"
 	//"github.com/RunCanopy/google-api-go-client/internal"
 	"golang.org/x/oauth2/google"
-	"google.golang.org/api/internal"
 	"google.golang.org/grpc"
 )
 
